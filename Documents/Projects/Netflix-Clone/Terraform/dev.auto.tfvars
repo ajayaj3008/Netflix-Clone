@@ -1,0 +1,9 @@
+cidr_block        = "10.0.0.0/16"
+pub_cidr_block    = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24", "10.0.4.0/24"]
+infra_count       = 4
+availability_zone = ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d"]
+ec2_instance_type = ["t3a.xlarge", "t3a.medium", "t3a.medium", "t3a.medium"]
+ec2_volume_size   = 30
+ec2_volume_type   = "gp3"
+aws-region        = "us-east-1"
+env               = "dev"

@@ -1,0 +1,9 @@
+variable "cidr_block" {}
+variable "pub_cidr_block" {}
+variable "infra_count" {}
+variable "availability_zone" {}
+variable "ec2_instance_type" {}
+variable "ec2_volume_size" {}
+variable "ec2_volume_type" {}
+variable "aws-region" {}
+variable "env" {}

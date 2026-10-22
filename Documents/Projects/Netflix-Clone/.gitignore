@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+terraform/.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
